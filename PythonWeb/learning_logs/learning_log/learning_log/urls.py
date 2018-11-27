@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include(('learning_logs.urls','learning_logs'),namespace='/Users/admin/Desktop/百灵鸟/python/pythonbasis/PythonWeb/learning_logs/learning_log/learning_logs')),
+    url(r'', include(('learning_logs.urls','learning_logs'),namespace='learning_logs')),
 ]
